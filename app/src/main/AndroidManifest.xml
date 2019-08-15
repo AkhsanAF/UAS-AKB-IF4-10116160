@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.akhsanaf.uasakb4">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.akhsanaf.uasakb4.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        </activity>
+        <activity
+            android:name="com.akhsanaf.uasakb4.presenter.RegisterActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity android:name="com.akhsanaf.uasakb4.presenter.ForgotPasswordActivity">
+        </activity>
+        <activity android:name="com.akhsanaf.uasakb4.view.Form">
+        </activity>
+        <activity android:name="com.akhsanaf.uasakb4.SplashScreen"
+            android:theme="@style/SplashScreenStyle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.akhsanaf.uasakb4.presenter.LoginActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        </activity>
+        <activity android:name="com.akhsanaf.uasakb4.view.viewPager.IntroActivity">
+        </activity>
+    </application>
+
+</manifest>

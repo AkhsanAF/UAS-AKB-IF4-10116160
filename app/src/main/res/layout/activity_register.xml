@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    android:layout_marginTop="-30dp"
+    android:background="#18a3fe"
+    tools:context="com.akhsanaf.uasakb4.presenter.LoginActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="220dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/logs"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/Username"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColorHint="#000"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp" >
+
+            <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputUsername"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_name"
+                    android:fontFamily="sans-serif-condensed"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textColor="@color/colorText" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/Email"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColorHint="#000"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputEmail"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_email"
+                    android:fontFamily="sans-serif-condensed"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textColor="@color/colorText" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/Password"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColorHint="#000"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputPassword"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_password"
+                    android:fontFamily="sans-serif-condensed"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textColor="@color/colorText" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/confirmPassword"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColorHint="#000"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputConfirmPassword"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:hint="@string/hint_confirm_password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textColor="@color/colorText" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonRegister"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorText"
+                android:background="#c0c0c0"
+                android:text="@string/text_register" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/linkLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/text_member"
+                android:textSize="17sp"
+                android:textColor="@color/colorText" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>

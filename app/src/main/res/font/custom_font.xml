@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+       <font
+               android:fontStyle="normal"
+            android:fontWeight="300"
+               android:font="@font/len"/>
+        <font
+    android:fontStyle="normal"
+    android:fontWeight="400"
+    android:font="@font/gotham" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/lovelo" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gothamkecil" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gothamjudul" />
+
+
+</font-family>
